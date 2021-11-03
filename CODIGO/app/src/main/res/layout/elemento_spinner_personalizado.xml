@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+Este es el elemento que sale seleccionado en un spinner
+-->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemSeleccionado"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="start"
+    android:padding="5dp"
+    android:textColor="#000000"
+    android:background="@drawable/mi_borde"
+    android:textSize="20sp" />

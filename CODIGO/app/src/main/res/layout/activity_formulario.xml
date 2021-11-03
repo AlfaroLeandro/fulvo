@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_weight="1"
+    android:keepScreenOn="true"
+    android:orientation="vertical"
+    android:id="@+id/rootLayout"
+    tools:context=".FormularioActivity">
+
+    <ScrollView
+        android:id="@+id/viewScroll"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/secondlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titulo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/ingrese_sus_datos"
+                android:textColor="@color/negro"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rango_de_edad_al_que_pertenece"
+                android:textColor="@color/negro" />
+
+            <Spinner
+                android:id="@+id/spEdad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView6"
+                android:layout_margin="15dp"
+                android:hint="Ingrese su rango de edad"
+                android:minHeight="48dp"
+                tools:ignore="SpeakableTextPresentCheck"></Spinner>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dosis de vacunas recibidas(*)"
+                android:textColor="@color/negro" />
+
+            <Spinner
+                android:id="@+id/spDosis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView7"
+                android:layout_margin="15dp"
+                android:hint="Ingrese cantidad de dosis recibida"
+                android:minHeight="48dp"
+                tools:ignore="SpeakableTextPresentCheck"></Spinner>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vacuna recibida"
+                android:textColor="@color/negro" />
+
+            <Spinner
+                android:id="@+id/spVacunas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView8"
+                android:layout_margin="15dp"
+                android:hint="Ingrese vacuna recibida"
+                android:minHeight="48dp"
+                tools:ignore="SpeakableTextPresentCheck"></Spinner>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="¿Tuvo síntomas de covid en los últimos dias? (*)"
+                android:textColor="@color/negro" />
+
+            <Spinner
+                android:id="@+id/spSintomas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView9"
+                android:layout_margin="15dp"
+                android:hint="Ingrese sus sintomas"
+                android:minHeight="48dp"
+                tools:ignore="SpeakableTextPresentCheck"></Spinner>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="¿Tuvo algún contacto estrecho en los ultimos 15 días?(*)"
+                android:textColor="@color/negro" />
+
+            <Spinner
+                android:id="@+id/spContacto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView10"
+                android:layout_margin="15dp"
+                android:hint="Ingrese si tuvo contacto estrecho"
+                android:minHeight="48dp"
+                tools:ignore="SpeakableTextPresentCheck"></Spinner>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/etiqueta_temperatura"
+                    android:layout_width="77dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Temperatura"
+                    android:textColor="@color/negro" />
+
+                <EditText
+                    android:id="@+id/temperatura"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="@string/ingrese_su_temperatura"
+                    android:inputType="phone"
+                    android:minHeight="48dp"
+                    android:textColor="@color/negro"
+                    android:textColorHint="#546E7A" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textIndicacion"
+                android:layout_width="369dp"
+                android:layout_height="45dp"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:layout_weight="1"
+                android:text="Agite su Celular para obtener su resultado"
+                android:textColor="@color/negro" />
+
+            <!--
+            <Button
+                android:id="@+id/btGetDatos"
+                android:layout_width="392dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/boton_rounded"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:text="Leer Datos"
+                android:textColor="@color/negro" />
+                -->
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

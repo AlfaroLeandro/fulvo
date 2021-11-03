@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/principal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FAF7F8"
+    android:orientation="vertical"
+    tools:context=".FinalActivity">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:gravity="center"
+        android:textColor="@color/negro"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tempSalida"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/negro"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:textColor="@color/negro"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/accesosHabilitados"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="@color/negro"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/accesosInhabilitados"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="@color/negro"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/informacion"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="@color/negro"
+        android:textSize="14sp" />
+
+</LinearLayout>

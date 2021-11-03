@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VueltaAlFulvo</string>
+    <string name="title_activity_segunda">SegundaActivity</string>
+    <string name="base">http://so-unlam.net.ar/api/</string>
+    <string name="ingrese_sus_datos">Ingrese sus datos</string>
+    <string name="ingrese_su_temperatura">Ingrese su temperatura</string>
+    <string name="rango_de_edad_al_que_pertenece">Rango de edad al que pertenece</string>
+    <string name="ingrese_su_numero_de_telefono">Ingrese su número de Telefono</string>
+</resources>

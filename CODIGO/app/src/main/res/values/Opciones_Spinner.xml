@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="edades">
+        <item>Seleccione opcion desplegable ↓</item>
+        <item>Menor a 18</item>
+        <item>18 a 60</item>
+        <item>Mayor a 60</item>
+    </string-array>
+
+    <string-array name="dosis">
+        <item>Seleccione opcion desplegable ↓</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="vacunas">
+        <item>Seleccione opcion desplegable ↓</item>
+		<item>No tengo ninguna vacuna</item>
+        <item>Sputnik V</item>
+        <item>Sinopharm</item>
+        <item>Moderna</item>
+        <item>Astrazeneca</item>
+    </string-array>
+
+    <string-array name="sintomas">
+        <item>Seleccione opcion desplegable ↓</item>
+        <item>No he tenido sintomas</item>
+        <item>Tuve sintomas en los ultimos 5 dias</item>
+        <item>Tuve sintomas en los ultimos 15 dias</item>
+    </string-array>
+
+    <string-array name="contacto">
+        <item>Seleccione opcion desplegable ↓</item>
+        <item>Si</item>
+        <item>No</item>
+        <item>No se</item>
+    </string-array>
+</resources>
