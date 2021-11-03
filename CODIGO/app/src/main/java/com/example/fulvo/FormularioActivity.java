@@ -52,6 +52,7 @@ public class FormularioActivity extends AppCompatActivity {
 
     // Constantes staticas de la clase
     private static final int TEM_MAX = 37;
+    private static final int TEM_MIN = 34;
 
     // Para manejar los spinners
     Map<String, String> datosAGuardar = new HashMap<>();
@@ -225,7 +226,8 @@ public class FormularioActivity extends AppCompatActivity {
 
             double valorTemperatura = Double.parseDouble(temperaturaCorregida);
 
-            if (valorTemperatura <= TEM_MAX && !datosAGuardar.get("Dosis").equals("0") //Entra con 1 o más dosis
+            if (valorTemperatura <= TEM_MAX && valorTemperatura >= TEM_MIN
+                    && !datosAGuardar.get("Dosis").equals("0")                           //Entra con 1 o más dosis
                     && datosAGuardar.get("Sintomas").equals("No he tenido sintomas")     //Entra sin sintomas
                     && datosAGuardar.get("Contacto").equals("No"))                       //Entra sin contacto estrecho
             {
